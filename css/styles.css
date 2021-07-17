@@ -161,7 +161,7 @@ body {
   height: 4px;
   background-color: var(--color-header);
   border-radius: 2px;
-  bottom: -33px;
+  bottom: -39px;
   box-sizing: border-box;
 }
 
@@ -283,8 +283,6 @@ body {
   justify-content: space-between;
 }
 
-.benefits-item:not(:last-child) {
-}
 .benefits-item-icon {
   display: flex;
   align-items: center;
@@ -344,11 +342,28 @@ body {
   list-style: none;
   display: flex;
 }
+.two-title-container {
+  position: relative;
+}
+.When-gob-item {
+  display: flex;
+}
 
 .When-gob-item:not(:last-child) {
   margin-right: 30px;
 }
+.two-title-name {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 
+  top: 76%;
+  width: 100%;
+  height: 70px;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 /* Наша команда */
 .comande {
   background-color: var(--comande-background-color);
@@ -716,11 +731,11 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 
   transition-property: opacity;
-  transition-duration: 250ms;
+  transition-duration: 1250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   transition-property: visibility;
-  transition-duration: 250ms;
+  transition-duration: 1250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
