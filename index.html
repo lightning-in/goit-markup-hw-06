@@ -463,6 +463,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
@@ -470,6 +472,41 @@
             <use href="./images/icon/sprite.svg#close"></use>
           </svg>
         </button>
+        <p class="data">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="" class="modal-form">
+          <label class="modal-form-fild">
+            <span class="modal-form-name">Имя</span>
+            <input type="text" class="modal-form-imput" name="user-name" />
+          </label>
+          <label class="modal-form-fild">
+            <span class="modal-form-name">Телефон</span>
+            <input type="text" class="modal-form-imput" name="user-name" />
+          </label>
+          <label class="modal-form-fild">
+            <span class="modal-form-name">Почта</span>
+            <input type="text" class="modal-form-imput" name="user-name" />
+          </label>
+          <label class="modal-form-fild">
+            <span class="modal-form-name">Комментарий</span>
+            <textarea
+              name="user-message"
+              class="modal-form-message"
+              placeholder="Введите текст"
+            ></textarea>
+            <input
+              type="checkbox"
+              class="modal-form-checkbox"
+              id="accept-polic"
+            />
+            <label for="accept-polic" class="modal-form-checkbox-label"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="modal-form-checkbox-link"
+                >Условия договора</a
+              ></label
+            >
+          </label>
+          <button type="submit" class="modal-form-buttton">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
