@@ -79,7 +79,7 @@
 
       <!-- benefits -->
       <section class="section container benefits">
-        <h2 hidden>Преимущества</h2>
+        <h2 class="visually-hidden">Преимущества</h2>
         <ul class="benefits-list">
           <li class="benefits-item">
             <a href="" class="benefits-item-icon">
@@ -470,6 +470,26 @@
             </li>
           </ul>
         </div>
+        <div>
+          <h3 class="footer-h-three">Подпишитесь на рассылку</h3>
+          <form action="#" class="modal-form-footer">
+            <label class="modal-form-footer-label"> </label>
+            <span class="modal-form-fild-one">
+              <input
+                type="text"
+                class="modal-form-footer"
+                name="user-name"
+                required
+              />
+              <button type="submit" class="modal-form-button">
+                Подписаться
+                <svg class="footer-icon-class">
+                  <use href="./images/icon/sprite.svg#linkedin"></use>
+                </svg>
+              </button>
+            </span>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -539,7 +559,7 @@
             ></textarea>
             <input
               type="checkbox"
-              class="modal-form-checkbox"
+              class="modal-form-checkbox visually-hidden"
               id="accept-polic"
             />
             <label for="accept-polic" class="modal-form-checkbox-label"
