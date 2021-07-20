@@ -550,8 +550,6 @@ body {
 .tel-contacts:active {
   color: var(--contacts-list-hfa);
 }
-.join {
-}
 .footer-h-three {
   font-weight: 700px;
   font-size: 14px;
@@ -592,18 +590,21 @@ body {
   background-color: #2196f3;
 }
 .footer-icon-class {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 .modal-form-footer {
   display: flex;
-  flex-direction: row;
+}
+.modal-form-fild-one {
+  margin-top: 0px;
 }
 
 .modal-form-footer {
-  width: 358px;
+  width: 570px;
   height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  left: 0;
+  top: 0;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -611,6 +612,36 @@ body {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.button {
+  transform: translateY(25%);
+}
+
+.modal-form-footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-right: 8px;
+  padding-left: 15px;
+  background-color: #2f303a;
+}
+
+.modal-footer-button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--button-hero);
+  cursor: pointer;
+  background-color: var(--button-hero-background-color);
+  border: none;
+  border-radius: 4px;
 }
 /* end page-1*/
 
