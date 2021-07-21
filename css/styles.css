@@ -599,6 +599,9 @@ body {
 .modal-form-fild-one {
   margin-top: 0px;
 }
+.modal-form-footer-div {
+  display: flex;
+}
 
 .modal-form-footer {
   width: 600px;
@@ -617,7 +620,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  margin-right: 8px;
+  margin-right: 12px;
   padding-left: 15px;
   background-color: #2f303a;
 }
@@ -938,7 +941,7 @@ body {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url("../images/icon/icon_check");
+  background-image: url("../images/icon/icon_check.svg");
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   border: 0.2px solid #2196f3;
