@@ -594,13 +594,6 @@ body {
   height: 24px;
 }
 .modal-form-footer {
-  display: flex;
-}
-.modal-form-fild-one {
-  margin-top: 0px;
-}
-.modal-form-footer-div {
-  display: flex;
 }
 
 .modal-form-footer {
@@ -613,7 +606,9 @@ body {
 .button {
   transform: translateY(25%);
 }
-
+.modal-form-footer-label {
+  display: flex;
+}
 .modal-form-footer-input {
   width: 358px;
   height: 50px;
@@ -626,8 +621,6 @@ body {
 }
 
 .modal-footer-button {
-  width: 200px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -637,6 +630,7 @@ body {
   background-color: var(--button-hero-background-color);
   border: none;
   border-radius: 4px;
+  padding: 9px 29px;
 }
 /* end page-1*/
 
