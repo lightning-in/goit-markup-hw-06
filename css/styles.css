@@ -550,6 +550,10 @@ body {
 .tel-contacts:active {
   color: var(--contacts-list-hfa);
 }
+
+.footer-div-three {
+  margin-left: 91px;
+}
 .footer-h-three {
   font-weight: 700px;
   font-size: 14px;
@@ -558,7 +562,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 17px;
-  margin-right: 154px;
 }
 
 .footer-icon-list {
@@ -593,12 +596,9 @@ body {
   width: 24px;
   height: 24px;
 }
-.modal-form-footer {
-}
 
 .modal-form-footer {
   width: 600px;
-  height: 85px;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -617,7 +617,11 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   margin-right: 12px;
   padding-left: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
   background-color: #2f303a;
+  color: #ffffff;
 }
 
 .modal-footer-button {
@@ -820,7 +824,9 @@ body {
   pointer-events: none;
 }
 
+/* Modal form style */
 .data {
+  font-family: Roboto, sans-serif;
   font-weight: 700px;
   font-size: 20px;
   line-height: 1.15;
@@ -830,8 +836,6 @@ body {
   color: #212121;
   margin-bottom: 12px;
 }
-
-/* Modal form style */
 
 .modal-form {
   display: flex;
@@ -864,6 +868,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-message {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -880,7 +890,7 @@ body {
 }
 
 .modal-form-message::placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -919,16 +929,20 @@ body {
 .modal-form-checkbox-label {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .modal-form-checkbox-label::before {
   content: "";
-  display: block;
   width: 16px;
   height: 15px;
   left: 0;
   border-radius: 2px;
-  border: 0.2px solid #000000;
+  border: 1px solid #000000;
   box-sizing: border-box;
   cursor: pointer;
   margin-right: 7px;
@@ -938,7 +952,7 @@ body {
   background-image: url("../images/icon/icon_check.svg");
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  border: 0.2px solid #2196f3;
+  border: 1px solid #2196f3;
 }
 .modal-form-button {
   width: 200px;
